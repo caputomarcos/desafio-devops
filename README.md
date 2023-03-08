@@ -19,7 +19,7 @@ Os comandos de interação com a API são os seguintes:
 
 * Start da app
 
-```
+```bash
 cd app
 gunicorn --log-level debug api:app
 ```
